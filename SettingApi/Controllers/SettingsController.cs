@@ -24,6 +24,7 @@ public class SettingsController : BaseController
                     .WithEmailSettings(await _context.EmailSettings.FindAsync(userId))
                     .WithPushSettings(await _context.PushSettings.FindAsync(userId))
                     .WithSmsSettings(await _context.SmsSettings.FindAsync(userId))
+                    .Build()
             );
     }
 }
