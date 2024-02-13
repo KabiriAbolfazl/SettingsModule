@@ -14,8 +14,8 @@ This project is about creating a notification system for a web application. The 
 
 To run this project, you need to:
 
-1. Clone the repository: `git clone https://github.com/yourusername/projectname.git`
-2. Navigate to the project directory: `cd projectname`
+1. Clone the repository: `git clone https://github.com/KabiriAbolfazl/SettingsModule.git`
+2. Navigate to the project directory: `cd SettingApi`
 3. Install dependencies: `dotnet restore`
 4. Run the project: `dotnet run`
 
